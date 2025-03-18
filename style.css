@@ -1,61 +1,70 @@
+/* Style de base */
 body {
-    background: linear-gradient(135deg, #FF7F50, #00BFFF); 
-    font-family: Arial, sans-serif; 
-    color: #333;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background: linear-gradient(to right, #8E24AA, #D500F9); /* Dégradé violet */
+    color: #333;
+    text-align: center;
 }
 
+/* En-tête principal */
 h1 {
-    color: #ffffff;
-    font-size: 3em;
-    text-align: center;
-    margin-bottom: 20px;
+    background: linear-gradient(to right, #6A1B9A, #8E24AA); /* Dégradé de violet pour l'en-tête */
+    color: white;
+    padding: 20px;
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre douce */
 }
 
+/* Titres secondaires */
 h2 {
-    color: #ffffff;
-    font-size: 2em;
+    color: #fff;
     margin-top: 20px;
-    text-align: center;
+    background: linear-gradient(to right, #9C27B0, #D500F9); /* Dégradé violet clair */
+    padding: 5px;
+    border-radius: 5px;
 }
 
+/* Sous-titre */
 h3 {
-    color: #ffffff;
-    font-size: 1.5em;
-    margin-top: 10px;
+    color: #fff;
+    margin-top: 15px;
+    background: linear-gradient(to right, #9C27B0, #8E24AA); /* Dégradé violet pour les sous-titres */
+    padding: 5px;
+    border-radius: 5px;
 }
 
+/* Paragraphe */
 p {
-    color: #f8f8f8;
-    line-height: 1.6;
-    text-align: center;
-    font-size: 1.1em;
     max-width: 800px;
     margin: 10px auto;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to top left, #ffffff, #f3e5f5); /* Dégradé très léger violet sur le fond */
 }
 
+/* Image */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Liens */
 a {
-    color: #FFD700; 
+    color: #D500F9;
     text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
 }
 
 a:hover {
     text-decoration: underline;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-top: 20px;
-}
-
-body > * {
-    margin: 10px;
+    color: #8E24AA; /* Couleur de lien violet au survol */
 }
